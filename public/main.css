@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+}
+#Paralax {
+	perspective: 1px;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+	}
+
+#wrapper {
+    width: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+#main {
+	margin: 0;
+	position: relative;
+	top: 14%;
+	z-index: -2;
+	
+}
+
+#mainOverlay {
+    position: absolute;
+	width: 100%;
+	top: 37%;
+}
+
+.header {
+    background: black;
+    color: white;
+    padding-top: 0.1%;
+    padding-bottom: 0.2%;
+    display: inline;
+    float: left;
+    width: 100%;
+}
+.Logo {
+    width: 132px;
+    margin-left: 10%;
+    padding-top: 7px
+}
+
+h1 {
+    position: absolute;
+    top: 39.5%;
+    margin-left: 36%;
+    line-height: 160.5%;
+    margin-right: 10%;
+    font-size: 1.5vw;
+	font-family: 'Arial Narrow';
+	z-index: 2;
+}
+ul {
+    padding:0;
+    list-style:none;
+	width: 100%;
+}
+
+li {
+    display:inline;
+	width: 100%;
+    padding:0;
+    margin-left: 7%;
+}
+
+form {
+    display: inline;
+}
+
+.mButton {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	width: 20%;
+    color: white;
+    font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26.4px;
+    letter-spacing: 1px;
+}
+
+.billederMain {
+	width: 102%;
+    z-index: -3;
+	transform: translateZ(-0.5px) scale(2);
+}
+
+.billederOverlay {
+    width: 100%;
+    position: relative;
+	top: 0px;
+	z-index: 2;
+	transform: translateZ(0px);
+}
+
+
+.teaser1 {
+	position: absolute;
+	top: 36.5%;
+	left: 6.5%;
+	width: 25%;
+	z-index: 2;
+}
+
+#knapper {
+    float: right;
+    width: 45%;
+}
+
+
+.citation {
+	position: absolute;
+	top: 62%;
+	left: 25%;
+	width: 50%;
+	text-align: center;
+	z-index: 1;
+	transform: translateZ(-0.6px) scale(1.8);
+}
+
+.citation2 {
+	position: absolute;
+	top: 90%;
+	left: 27%;
+	width: 50%;
+	text-align: center;
+	z-index: 1;
+	transform: translateZ(-0.6px) scale(1.4);
+}
+
+.Endbox {
+	position: absolute;
+	width: 100%;
+	top: 137%;
+	z-index: 2;
+	transform: translateZ(-0.3px) scale(1.8);
+}
+.End {
+	position: absolute;
+	width: 40%;
+	left: 27%;
+	top: 142%;
+	z-index: 2;
+	transform: translateZ(-0.3px) scale(1.8);
+}

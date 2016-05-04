@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+
+#wrapper {
+    width: 100%;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.header {
+    background: black;
+    color: white;
+    padding-top: 0.1%;
+    padding-bottom: 0.2%;
+    display: inline;
+    float: left;
+    width: 100%;
+}
+.Logo {
+    width: 132px;
+    margin-left: 10%;
+    padding-top: 7px
+}
+
+h1 {
+    position: absolute;
+    top: 39.5%;
+    margin-left: 36%;
+    line-height: 160.5%;
+    margin-right: 10%;
+    font-size: 1.5vw;
+	font-family: 'Arial Narrow';
+	z-index: 2;
+}
+ul {
+    padding:0;
+    list-style:none;
+	width: 100%;
+}
+
+li {
+    display:inline;
+	width: 100%;
+    padding:0;
+    margin-left: 7%;
+}
+
+form {
+    display: inline;
+}
+
+.mButton {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	width: 20%;
+    color: white;
+    font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26.4px;
+    letter-spacing: 1px;
+}
+
+#knapper {
+    float: right;
+    width: 45%;
+}

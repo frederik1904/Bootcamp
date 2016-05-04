@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+}
+#wrapper {
+    width: 100%;
+    overflow-x: hidden;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+#kalenderKant {
+	position: absolute;
+	margin: 0;
+	width: 100%;
+	top: 16%;
+	left: 10%;
+	
+}
+.header {
+    background: black;
+    color: white;
+    padding-top: 0.1%;
+    padding-bottom: 0.2%;
+    display: inline;
+    float: left;
+    width: 100%;
+}
+.Logo {
+    width: 132px;
+    margin-left: 10%;
+    padding-top: 7px
+}
+ul {
+    padding:0;
+    list-style:none;
+	width: 100%;
+}
+li {
+    display:inline;
+	width: 100%;
+    padding:0;
+    margin-left: 7%;
+}
+.mButton {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	width: 20%;
+    color: white;
+    font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26.4px;
+    letter-spacing: 1px;
+}
+#knapper {
+    float: right;
+    width: 45%;
+}
+.kalenderFelt {
+	width: 0%;
+	padding: 1.7vw;
+	background-color: gray;
+    font-size: 2vw;
+    text-align: center;
+}
+.selveboksen {
+	background: grey;
+	position: relative;
+	top: 15vh;
+	left: 55vw;
+}
+.afrejsedato {
+	font-size: 1vw;
+	font-weight: bold;
+	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+}
+.hjemkomst {
+	font-size: 1vw;
+	font-weight: bold;
+	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+}
+
+form {
+   display: inline;
+}
+
+.dagIValgtMaaned {
+	background-color: yellow;
+	
+}
+
+.ikkeDagIValgtMaaned {
+	background-color: gray;
+	
+}
+
+.mButtonV2 {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	width: 20%;
+    color: black;
+    font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26.4px;
+    letter-spacing: 1px;
+}
